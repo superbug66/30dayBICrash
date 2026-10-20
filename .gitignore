@@ -1,0 +1,22 @@
+# Big data: never commit these
+data/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.fasta.gz
+*.bam
+*.sam
+*.sra
+*.raw
+# Pipeline output (can be gigabytes)
+work/
+.nextflow*
+test_out/
+tp_out/
+# R, Python and Mac clutter
+.Rproj.user/
+.Rhistory
+.RData
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
